@@ -1,0 +1,33 @@
+font {
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+.header {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    font-weight: 1000;
+    font-style: oblique;
+    margin-top: 20px;
+}
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+.list {
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+}
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.95em;
+    color: #000000;
+}
