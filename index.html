@@ -12,9 +12,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <h3 class="header">Hi,<br>
-            <span id="demo">who am i?</span></h3>
-            <center><button class="button" type="button" onclick='document.getElementById("demo").innerText = "my name is Ben. Im 16 years old and come from Germany"'>click me to find out!</button></center>
+    <div class="box">
+        <h3 class="header">Hi,<br></h3>
+        <center><span class="header" id="demo">who am i?</span></h3></center><br>
+        <center>
+            <button class="round-button" style="font-family: inherit;" onclick="const d=document.getElementById('demo'); d.innerText = d.innerText==='who am i?' ? 'my name is Ben. I\'m 16 years old and come from Germany' : 'who am i?'">
+            click here to find out!
+          </button>
+        </center>
     <div class="container">
         <div class="list">
             <h3 class="header">What are my interests?</h3>
@@ -27,5 +32,6 @@
             </ul>
         </div>
     </div>
+</div>
 </body>
 </html>
