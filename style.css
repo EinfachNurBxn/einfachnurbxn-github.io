@@ -1,48 +1,25 @@
 body {
     background-color: beige;
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
   }
   
   .header {
-    font-family: "Roboto Condensed", sans-serif;
-    text-align: center;
-    font-weight: 1000;
+    font-weight: 700;
     font-style: oblique;
+    text-align: center;
     margin-top: 20px;
   }
   
   #demo {
     font-family: "Roboto Condensed", sans-serif;
-    font-weight: 1000;
+    font-weight: 700;
     font-style: oblique;
     text-align: center;
-  }
-  
-  .container {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .list {
     display: inline-block;
-    text-align: left;
-    margin-top: 10px;
-  }
-  
-  .box {
-    outline-style: groove;
-    outline-width: 5px;
-  }
-  
-  ul {
-    list-style-type: square;
-    padding-left: 20px;
-  }
-  
-  footer {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 0.95em;
-    color: #000000;
+    font-size: 18px;
   }
   
   .round-button {
@@ -62,3 +39,30 @@ body {
     transform: scale(1.05);
   }
   
+  .container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .list {
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  .box {
+    outline-style: groove;
+    outline-width: 5px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.95em;
+    color: #000;
+  }  

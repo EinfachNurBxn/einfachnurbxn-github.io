@@ -8,22 +8,19 @@
   <title>Meine erste Website</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <div class="box">
-    <h3 class="header">Hi,<br /></h3>
+    <h2 class="header">Hi,</h2>
     <center>
-      <span class="header" id="demo">who am i?</span>
+      <span id="demo">who am i?</span>
     </center>
     <br />
     <center>
-      <button
-        class="round-button"
-        onclick="const d=document.getElementById('demo'); d.innerText = d.innerText==='who am i?' ? 'my name is Ben. I\'m 16 years old and come from Germany' : 'who am i?'"
-      >
+      <button class="round-button" onclick="const d=document.getElementById('demo'); d.innerText = d.innerText==='who am i?' ? 'my name is Ben. I\'m 16 years old and come from Germany' : 'who am i?'">
         click here to find out!
       </button>
     </center>
@@ -42,4 +39,5 @@
     </div>
   </div>
 </body>
+
 </html>
