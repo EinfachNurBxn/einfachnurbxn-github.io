@@ -2,36 +2,44 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meine erste Website</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meine erste Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <div class="box">
-        <h3 class="header">Hi,<br></h3>
-        <center><span class="header" id="demo">who am i?</span></h3></center><br>
-        <center>
-            <button class="round-button" style="font-family: inherit;" onclick="const d=document.getElementById('demo'); d.innerText = d.innerText==='who am i?' ? 'my name is Ben. I\'m 16 years old and come from Germany' : 'who am i?'">
-            click here to find out!
-          </button>
-        </center>
+  <div class="box">
+    <h3 class="header">Hi,<br /></h3>
+    <center>
+      <span class="header" id="demo">who am i?</span>
+    </center>
+    <br />
+    <center>
+      <button
+        class="round-button"
+        onclick="const d=document.getElementById('demo'); d.innerText = d.innerText==='who am i?' ? 'my name is Ben. I\'m 16 years old and come from Germany' : 'who am i?'"
+      >
+        click here to find out!
+      </button>
+    </center>
+
     <div class="container">
-        <div class="list">
-            <h3 class="header">What are my interests?</h3>
-            <ul>
-                <li><b>football</b></li>
-                <li><b>gaming</b></li>
-                <li><b>programming</b></li>
-                <li><b>politics</b></li>
-                <li><b>and more!</b></li>
-            </ul>
-        </div>
+      <div class="list">
+        <h3 class="header">What are my interests?</h3>
+        <ul>
+          <li><b>football</b></li>
+          <li><b>gaming</b></li>
+          <li><b>programming</b></li>
+          <li><b>politics</b></li>
+          <li><b>and more!</b></li>
+        </ul>
+      </div>
     </div>
-</div>
+  </div>
 </body>
 </html>

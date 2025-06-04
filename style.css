@@ -1,57 +1,64 @@
 body {
     background-color: beige;
-}
-
-font {
-    font-family: "Roboto Condensed", sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
-    color: #000000;
-}
-.header {
+  }
+  
+  .header {
     font-family: "Roboto Condensed", sans-serif;
     text-align: center;
     font-weight: 1000;
     font-style: oblique;
     margin-top: 20px;
-}
-.container {
+  }
+  
+  #demo {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 1000;
+    font-style: oblique;
+    text-align: center;
+  }
+  
+  .container {
     text-align: center;
     margin-top: 20px;
-}
-.list {
+  }
+  
+  .list {
     display: inline-block;
     text-align: left;
     margin-top: 10px;
-}
-.box {
+  }
+  
+  .box {
     outline-style: groove;
     outline-width: 5px;
-}
-ul {
+  }
+  
+  ul {
     list-style-type: square;
     padding-left: 20px;
-}
-footer {
+  }
+  
+  footer {
     text-align: center;
     margin-top: 40px;
     font-size: 0.95em;
     color: #000000;
-}
-.round-button {
+  }
+  
+  .round-button {
     padding: 10px 20px;
     border-radius: 999px;
     border: none;
     background-color: #222;
     color: #fff;
     font-size: 14px;
-    font-family: inherit; /* <-- das ist entscheidend */
+    font-family: "Roboto Condensed", sans-serif;
     cursor: pointer;
     transition: background-color 0.2s ease, transform 0.2s ease;
   }
-
+  
   .round-button:hover {
     background-color: #555;
     transform: scale(1.05);
   }
+  
