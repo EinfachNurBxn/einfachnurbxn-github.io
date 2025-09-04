@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" alt="Website Icon" width="120" />
-  <h1>My First Website – Learning Web Development</h1>
+  <h1>My First Website</h1>
 </div>
 
 ---
@@ -28,7 +28,7 @@ Build a simple, clean website using HTML, CSS, and JavaScript.
 ## 📈 Next Steps
 
 - Improve styling with CSS frameworks (e.g., Bootstrap)  
-- Add more JavaScript features and animations  
+- Add more JavaScript features
 
 ---
 
