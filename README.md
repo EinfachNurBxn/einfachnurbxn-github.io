@@ -11,7 +11,7 @@ Build a simple, clean website using HTML, CSS, and JavaScript.
 
 ---
 
-## 📚 What You Will Learn
+## 📚 What I want to learn
 
 - Basics of **HTML** structure and semantics  
 - Styling with **CSS**  
@@ -21,8 +21,8 @@ Build a simple, clean website using HTML, CSS, and JavaScript.
 ---
 ## 📈 Repository Stats
 
-![Last Commit](https://img.shields.io/github/last-commit/einfachnurbxn/einfachnurbxn-github.io)  
-![Commit Activity](https://img.shields.io/github/commit-activity/m/einfachnurbxn/einfachnurbxn-github.io)
+![Last Commit](https://img.shields.io/github/last-commit/EinfachNurBxn/einfachnurbxn-github.io)  
+![Commit Activity](https://img.shields.io/github/commit-activity/m/EinfachNurBxn/einfachnurbxn-github.io)
 ---
 
 ## 📈 Next Steps
