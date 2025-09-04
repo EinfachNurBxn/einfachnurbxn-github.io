@@ -33,7 +33,6 @@ Build a simple, clean website using HTML, CSS, and JavaScript.
 ---
 
 If you have questions or suggestions, feel free to reach out!  
-Enjoy building your web skills! 🌐✨
 
 ---
 
